@@ -35,7 +35,7 @@ let videos = [{
         uploadDate: new Date("10-24-2017"),
         tags: "style, background, hover",
         features: ["purchased", "HDR"],
-        viewCount: 3000,
+        viewCount: 3034,
         rating: 4.4
     },
     {
@@ -45,7 +45,7 @@ let videos = [{
         uploadDate: new Date("9-22-2017"),
         tags: "for loop, each loop, while loop",
         features: ["Purchased", "HD"],
-        viewCount: 455880,
+        viewCount: 4540,
         rating: 4.1
     },
     {
@@ -55,7 +55,7 @@ let videos = [{
         uploadDate: new Date("11-29-2019"),
         tags: "ingredients,  New recipes, Korma",
         features: ["Live", "HD"],
-        viewCount: 345600,
+        viewCount: 3456,
         rating: 4.5
     },
     {
@@ -65,7 +65,7 @@ let videos = [{
         uploadDate: new Date("12-29-2018"),
         tags: "comedy, funny",
         features: ["Live", "HDR"],
-        viewCount: 32005678,
+        viewCount: 3200,
         rating: 4.3
     },
     {
@@ -75,7 +75,7 @@ let videos = [{
         uploadDate: new Date("2-16-2018"),
         tags: "motivational, funny",
         features: ["Live", "Relevance"],
-        viewCount: 2050000,
+        viewCount: 2000,
         rating: 4.4
     },
     {
@@ -85,7 +85,7 @@ let videos = [{
         uploadDate: new Date("12-29-2017"),
         tags: "motivational, funny",
         features: ["Live", "HDR"],
-        viewCount: 3845602,
+        viewCount: 2000,
         rating: 4.2
     },
     {
@@ -95,7 +95,7 @@ let videos = [{
         uploadDate: new Date("8-27-2018"),
         tags: "funny, comedy",
         features: ["Live", "360°", "HDR"],
-        viewCount: 568798948,
+        viewCount: 1200,
         rating: 4.1
     },
     {
@@ -105,17 +105,17 @@ let videos = [{
         uploadDate: new Date("6-13-2019"),
         tags: "funny, entertainments, enjoyable",
         features: ["Live", "HD"],
-        viewCount: 298787000,
+        viewCount: 5000,
         rating: 4.6
     },
     {
         title: "For each loop tutorials",
         lengthInMinutes: 30,
         category: "Education",
-        uploadDate: new Date("11-22-2018"),
+        uploadDate: new Date("7-27-2019"),
         tags: "javascript, loops, web development",
         features: ["Live", "360°", "HDR"],
-        viewCount: 1208799,
+        viewCount: 300,
         rating: 4.3
     },
     {
@@ -125,7 +125,7 @@ let videos = [{
         uploadDate: new Date("14-14-2014"),
         tags: "kids  fun, hero, ",
         features: ["Live", "360°", "HDR"],
-        viewCount: 1368970,
+        viewCount: 6000,
         rating: 4.4
     },
     {
@@ -135,7 +135,7 @@ let videos = [{
         uploadDate: new Date("12-26-2019"),
         tags: "javascript, arrays, webdevelopment",
         features: ["Live", "360°", "HDR"],
-        viewCount: 3578090,
+        viewCount: 5700,
         rating: 4.4
     }
 ];
@@ -209,11 +209,11 @@ for(let i = 0; i < videos.length; i++){
 
 // 7.
 
-for (let i = 0; i < videos.length; i++){
-if(videos[i].tags.slice() == "javascript") {
-console.log(videos[i].title);
-}
-}
+// for (let i = 0; i < videos.length; i++){
+// if(videos[i].tags.slice() == "javascript") {
+// console.log(videos[i].title);
+// }
+// }
 
 
 
@@ -228,3 +228,43 @@ console.log(videos[i].title);
 
 
 // 
+
+
+// // //  9.
+// let today =new Date();
+// for(let i = 0; i < videos.length; i++){
+//    if(videos[i].uploadDate.getMonth() + "-" + videos[i].uploadDate.getDate() + "-" + videos[i].uploadDate.getFullYear() === today){
+//       console.log(videos[i].title);
+// }
+// }
+
+
+// 11.
+
+// let today = new Date().getMonth();
+
+// for (let i = 0; i < videos.length; i++) {
+//     if (videos[i].uploadDate.getMonth() == today) {
+//         console.log(videos[i].title);
+//     }
+// }
+
+//  12.
+
+// let today = new Date().getFullYear();
+
+// for (let i = 0; i < videos.length; i++) {
+//     if (videos[i].uploadDate.getFullYear() == today) {
+//         console.log(videos[i].title);
+//         console.log('');
+//     }
+// }
+
+//  13.
+
+// for(let i = 0; i < videos.length; i++) {
+//     videos..sort()
+// console.log(videos[i].title);
+// console.log("");
+
+// }
